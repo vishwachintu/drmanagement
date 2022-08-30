@@ -39,7 +39,7 @@ with st.sidebar.form(key='columns_in_form',clear_on_submit=True): #set clear_on_
 st.markdown('<p class="font">Upload your project plan file and generate Gantt chart instantly</p>', unsafe_allow_html=True)
 
 with st.sidebar.expander("Authors"):
-     st.write("""Vishwa and Raghu""")
+     st.write("""Vishwa and Raghu \n  \nemail: info@drpinnacle.com""")
 
 def project_management():
     #Add a template screenshot as an example 
