@@ -16,7 +16,7 @@ st.sidebar.image(logo,  width=120)
 #Add the expander to provide some information about the app
 with st.sidebar.expander("About the Project Planning App"):
      st.write("""
-        This interactive project management App was built by Vishwa using Streamlit. You can use the app to easily and quickly generate a Gannt chart for any project plan and management purposes. \n  \nYou can edit the project plan within the app and instantly generate and update the Gantt chart. You can also export the Gantt chart to png file and share it with your team very easily.)
+        This interactive project management App was built by Dr.Pinnacle(Vishwa and Raghu) using Streamlit. You can use the app to easily and quickly generate a Gannt chart for any project plan and management purposes. \n  \nYou can edit the project plan within the app and instantly generate and update the Gantt chart. You can also export the Gantt chart to png file and share it with your team very easily.)
      """)
 
 #Create a user feedback section to collect comments and ratings from users
