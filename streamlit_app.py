@@ -36,6 +36,7 @@ with st.sidebar.form(key='columns_in_form',clear_on_submit=True): #set clear_on_
       st.markdown(""" <style> .font {                                          
     font-size:30px ; font-family: 'Cooper Black'; color: #FF9633;} 
     </style> """, unsafe_allow_html=True)
+st.markdown('Use **_pip install drmanagement_**.')         
 st.markdown('<p class="font">Upload your project plan file and generate Gantt chart instantly</p>', unsafe_allow_html=True)
 
 with st.sidebar.expander("Authors"):
