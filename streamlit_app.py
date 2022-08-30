@@ -16,7 +16,7 @@ st.sidebar.image(logo,  width=120)
 #Add the expander to provide some information about the app
 with st.sidebar.expander("About the Data Science/AI Project Planning App From Dr.Pinnacle"):
      st.write("""
-        This interactive data science project management app was built by Dr.Pinnacle(Vishwa and Raghu) using Streamlit. You can use the app to easily and quickly generate a Gannt chart for any project plan and management purposes. \n  \nYou can edit the project plan within the app and instantly generate and update the Gantt chart. You can also export the Gantt chart to png file and share it with your team very easily.)
+        This interactive data science project management app was built by Dr.Pinnacle(Vishwa and Raghu) using Streamlit. You can use the app to easily and quickly generate a Gannt chart for any project plan and management purposes. \n  \nYou can edit the project plan within the app and instantly generate and update the Gantt chart. You can also export the Gantt chart to png file and share it with your team very easily.
      """)
 
 #Create a user feedback section to collect comments and ratings from users
@@ -37,6 +37,9 @@ with st.sidebar.form(key='columns_in_form',clear_on_submit=True): #set clear_on_
     font-size:30px ; font-family: 'Cooper Black'; color: #FF9633;} 
     </style> """, unsafe_allow_html=True)
 st.markdown('<p class="font">Upload your project plan file and generate Gantt chart instantly</p>', unsafe_allow_html=True)
+
+with st.sidebar.expander("Authors"):
+     st.write("""Vishwa and Raghu""")
 
 def project_management():
     #Add a template screenshot as an example 
